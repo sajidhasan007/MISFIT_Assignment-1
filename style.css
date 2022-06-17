@@ -1,0 +1,505 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.section-title {
+    text-align: center;
+    color: black;
+    margin: 50px 0 30px 0;
+}
+
+/*first header design*/
+
+.header-icon>i {
+    margin-right: 20px;
+}
+
+.first-header {
+
+    background-color: #0771BA;
+
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    color: white;
+
+}
+
+/*nav style*/
+
+.senocd-nav-full {
+    background-color: white;
+    color: gray;
+    width: 100%;
+    /* padding: 0 200px; */
+    /* padding-left: 150px;
+    padding-right: 150px; */
+}
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.nav-items {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    /* margin-top: -15px; */
+}
+
+.nav {
+
+    display: flex;
+    list-style: none;
+    /* padding: 10px; */
+    text-align: center;
+
+}
+
+.nav li {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.nav li:hover {
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+}
+
+/*main section style start from here*/
+
+/*banner style */
+
+.banner {
+    background-image:
+        linear-gradient(to bottom, rgba(2, 2, 2, 0.389), rgba(0, 0, 0, 0.395)),
+        url('pic/pic2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-content {
+    text-align: right;
+    margin-left: 50%;
+
+}
+
+.banner-pera {
+    margin: 15px 0;
+}
+
+.banner-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(36, 66, 214);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* About us style start from here */
+
+.about-content {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.aboutUs-pic img {
+    width: 100%;
+}
+
+.aboutUs-pic {
+    border: 1px solid red;
+    width: 40%;
+    /* flex: 40%; */
+}
+
+.aboutUs-pera {
+    border: 1px solid green;
+    /* margin-left: 4px; */
+    width: 60%;
+    /* flex: 40%; */
+    text-align: justify;
+}
+
+
+/* our service style start from here  */
+
+.service-card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    /* clip-path: polygon(0 100%, 100% 100%, 99% 54%, 67% 54%, 50% 23%, 34% 54%, 0 54%); */
+
+}
+
+.service-card img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+
+}
+
+.service-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.service-card-data {
+    padding: 2px 16px;
+    padding-top: 50px;
+    margin-top: -40px;
+    text-align: center;
+    background-color: rgba(216, 213, 213, 0.395);
+    /* clip-path: polygon(0 100%, 100% 100%, 100% 54%, 59% 54%, 50% 35%, 41% 54%, 0 54%); */
+}
+
+.service-items {
+    display: flex;
+}
+
+
+
+
+
+/* service design start from here */
+
+.service-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+/* .service-img img{
+    width: 20%;
+    margin-left: 5px;
+} */
+
+
+/* our tem section's design start from here */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 5px;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-data {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.our-tem {
+    display: flex;
+}
+
+/* our testimonal section's style start from */
+
+.t-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    /* clip-path: polygon(0 100%, 100% 100%, 99% 54%, 67% 54%, 50% 23%, 34% 54%, 0 54%); */
+
+}
+
+.t-card img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+
+}
+
+.t-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.t-card-data {
+    padding: 2px 16px;
+    padding-top: 150px;
+    margin-top: -100px;
+    text-align: center;
+    background-color: rgba(216, 213, 213, 0.395);
+    clip-path: polygon(0 100%, 100% 100%, 100% 54%, 59% 54%, 50% 35%, 41% 54%, 0 54%);
+}
+
+.my-reviews {
+    display: flex;
+}
+
+.r-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer style start from here  */
+
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.head-about-contact {
+    width: 50%;
+
+}
+
+.f-contact {
+    padding: 50px 10px 0 10px;
+}
+
+.f-contact ul {
+    list-style-type: none;
+}
+
+.important-link-flickr-photo {
+    width: 50%;
+
+}
+
+
+.important-link {
+    padding: 50px 10px 0 10px;
+    width: 60%;
+}
+
+.important-link ul {
+    list-style-type: none;
+}
+
+.head-about-contact {
+    display: flex;
+}
+
+.important-link-flickr-photo {
+    display: flex;
+}
+
+.flickr-photo {
+    padding: 50px 10px 0 10px;
+
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgb(42, 34, 34);
+    padding: 30px;
+    margin-top: 1px;
+    color: white;
+}
+
+
+/* media query for tablets */
+
+
+@media only screen and (max-width: 992px) {
+
+    .about-content {
+        flex-direction: column;
+
+    }
+
+    .aboutUs-pic {
+        width: 100%;
+    }
+
+    .aboutUs-pera {
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* our team style start from here  */
+    .card {
+        width: 100%;
+    }
+
+
+    .our-tem {
+        flex-direction: column;
+    }
+
+    /* our testimunal style start from here */
+
+
+    .t-card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .my-reviews {
+        flex-direction: column;
+    }
+
+    .t-card-data {
+
+        padding-top: 250px;
+        margin-top: -180px;
+        clip-path: polygon(0 100%, 100% 100%, 100% 54%, 59% 54%, 50% 45%, 41% 54%, 0 54%);
+
+    }
+
+
+    /* our service style start from here */
+
+    .service-card {
+        width: 100%;
+        margin: 5px;
+
+    }
+
+    .service-items {
+
+        flex-direction: column;
+    }
+
+
+    /* banner design start from here */
+
+    .banner-content {
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+
+/* service image style start form here  */
+
+.service-img {
+    flex-direction: column;
+}
+
+
+.column {
+    max-width: 100%;
+}
+
+
+.second-nav{
+    flex-direction: column;
+}
+
+.nav{
+    flex-direction: column;
+}
+
+
+/* footer style start from here  */
+
+
+.footer {
+   flex-direction: column;
+   text-align: center;
+}
+
+
+.head-about-contact {
+    /* margin: 10px 0; */
+    width: 100%;
+
+}
+
+.f-contact {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.important-link-flickr-photo {
+    width: 100%;
+
+}
+
+
+.important-link {
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.head-about-contact {
+   flex-direction: column;
+}
+
+.important-link-flickr-photo {
+   flex-direction: column;
+}
+
+.flickr-photo {
+    padding: 0;
+
+}
+
+
+
+}
